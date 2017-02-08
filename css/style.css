@@ -1,0 +1,156 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../images/111.jpg);
+}
+
+a {
+  color: #00f;
+}
+
+.container {
+  background: url(../images/flying.jpeg) left top no-repeat;
+}
+
+
+
+.sidebar {
+  width: 200px;
+}
+.sidebar-left {
+  float: left;
+  width: 29%;
+}
+
+#main {
+  width: 70%;
+  float: right;
+}
+.footer {
+  clear: both;
+  background: #ccc;
+}
+
+.block {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+
+  border-right: 1px dashed #000;
+  border-top: 1px solid #000;
+  border-left: 1px dotted #000;
+  border-bottom: 1px solid #000;
+
+  -webkit-box-shadow: 4px 2px 2px 2px rgba(0,0,0,0.7);
+  box-shadow: 4px 2px 2px 2px rgba(0,0,0,0.7);
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,ffffff+100 */
+  background: #1e5799; /* Old browsers */
+  background: -moz-linear-gradient(left,  #1e5799 0%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #1e5799 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #1e5799 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+
+  border-radius: 10px;
+}
+
+.logo {
+  float: left;
+}
+
+.menu {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.menu ul {
+  margin-top: 35px;
+}
+
+.menu ul li {
+  list-style: none;
+  float: left;
+  border-right: 1px solid #fff;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.menu ul li.last {
+  border-right: 0;
+}
+
+.menu ul li a.second {
+  color: #fff;
+}
+
+.menu ul li a {
+  color: #fff;
+}
+
+.container{
+  max-width: 980px;
+  margin: 0 auto;
+
+}
+.main-container {
+  background: #3F8880 url(../images/033.jpg) center top no-repeat;
+}
+
+main-wrapper {
+  background: grey;
+}
+
+.header .container { background: url(../images/033.jpg)}
+
+.download-header {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -35px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 35px;
+}
+.site-footer {
+  background: orange;
+}
+.text {
+  text-align: center;
+  line-height: 35px;
+}
+
+.gallery li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 200px;
+}
